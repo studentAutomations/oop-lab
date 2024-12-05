@@ -1,0 +1,18 @@
+Na programskom jeziku C++ kreirati klasu Skup koja će kao privatne
+članove imati broj elemenata skupa i dinamički niz elemenata tipa int, a kao
+javne (public) sledeće funkcije članice:
+• default konstruktor koji postavlja broj elemenata skupa na 0,
+• konstruktor za postavljanje broja elemenata skupa i zauzimanje
+neophodnog prostora u memoriji,
+• destruktor,
+• inline funkciju koja vraća broj elemenata skupa,
+• funkciju koja izbacuje duplikate iz skupa,
+• funkciju koja ispituje da li zadati element pripada skupu,
+• funkciju za učitavanje elemenata skupa sa standardnog ulaza,
+• funkciju za uređene elemenata skupa u nerastući redosled,
+• funkciju za prikaz elemenata skupa na standardni izlaz.
+U funkciji main kreirati objekat klase Skup u dinamičkoj zoni memorije koji sadrži
+10 elemenata, učitati njegove elemente sa standardnog ulaza, ispitati da li
+nekoliko proizvoljno unetih brojeva tom skupu. Sem toga, kreirati još jedan
+objekat vaše klase u dinamičkoj zoni memorije i testirati i sve ostale
+implementirane funkcije klase.
