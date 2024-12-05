@@ -9,6 +9,7 @@ int main()
   s->Ucitaj();
   s->Pripada(10);
   s->Pripada(150);
+  // umesto da se naprave dve klase odma su sve funkcije proverene na vec postojecoj klasi
   s->UkloniDuplikate();
   s->Uredi();
   s->Prikazi();
